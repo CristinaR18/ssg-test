@@ -1,0 +1,116 @@
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="avon, inscriere, comanda, reprezentant, produse, oferte"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Avon Romania inscrieri.comenzi</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="./avon.svg" alt="Poza logo" width="50" height="50" />AVON
+        inscriere,comenzi
+      </h1>
+      <span
+        ><a
+          href="https://www2.avoncosmetics.ro/ro-home;jsessionid=7D8C185C5689A3393D8BBDA8A1E77DBE-n1.live_ce_pap8_3"
+          >LOGIN REPREZENTANT</a
+        >
+      </span>
+      <a href="tel:+40742802142">Telefon:+40 0742 802 142</a>
+      <a href="mailto:contact.avon.info.trei@gmail.com"
+        >contact.avon.info.trei@gmail.com</a
+      >
+    </header>
+    <main>
+      <input id="search" type="text" />
+      <button type="submit" title="Cautare"><span>Cautare</span></button>
+      <nav class="main-nav">
+        <ul id="navLinks" class="nav-links">
+          <li><a href="#">Produse</a></li>
+          <section id="Product" class="Product">
+            <p id="Product-links" class="Product-links">
+              <a href="#">Ingrijire par</a>
+            </p>
+            <p>
+              <a href="#">Ingrijire corp</a>
+            </p>
+            <p>
+              <a href="#">Ingrijire ten</a>
+            </p>
+            <p>
+              <a href="#">Parfumuri</a>
+            </p>
+            <p>
+              <a href="#">Accesorii</a>
+            </p>
+          </section>
+          <li><a href="#">Oferte</a></li>
+          <li><a href="#">Inscriere</a></li>
+          <li><a href="#">Brosura </a><br /></li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <button id="navToggleBtn" class="nav-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </button>
+      </nav>
+      <a href="http://bit.ly/CreazaCont">Inscrie-te</a>
+      <hr />
+      <iframe src="http://bit.ly/comandaCatalog"></iframe>
+      <h1>CREAZĂ-ȚI CONT DE CLIENT/REPREZENTANT</h1>
+      <h3>Vrei sa beneficiezi de reducere? Completeaza formularul!</h3>
+      <form action="">
+        <label for="fullname">Nume complet</label>
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          placeholder="Introduceti numele complet"
+          required
+          minlength="3"
+          maxlength="50"
+        />
+        <br />
+        <label for="birthdate">Data nasterii</label>
+        <input type="date" id="birthdate" name="birthdate" required /> <br />
+        <label for="email">Adresa de email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Introduceti adresa de email"
+          required
+        />
+        <br />
+        <label for="adress">Adresa completa</label>
+        <input
+          type="adress"
+          id="adress"
+          name="adress"
+          placeholder="introduceti strada/numar/bloc/scara/apartament "
+          required
+          minlength="10"
+          maxlength="100"
+        />
+        <br />
+        <input type="radio" name="client" value="client" />Client direct
+        <input
+          type="radio"
+          name="reprezentant"
+          value="reprezentant"
+        />Reprezentant Avon(este nevoie de buletin) <br />
+        <button type="submit">Trimite</button>
+      </form>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
